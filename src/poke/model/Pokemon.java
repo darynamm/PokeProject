@@ -54,6 +54,11 @@ public abstract class Pokemon implements Serializable
 		return health;
 	}
 
+	
+	public int getPokedexNumber()
+	{
+		return pokedexNumber;
+	}
 	public boolean isCanEvolve()
 	{
 		return canEvolve;
@@ -83,8 +88,10 @@ public abstract class Pokemon implements Serializable
 	public String toString()
 	{
 		String description = "Hi, I am a " +  this.getClass().getSimpleName() + " pokemon my name is: " + getName();
+		String descriptionn = "My pokedex number is " + getPokedexNumber();
 		
 		return description;
+		
 	}
 
 }
