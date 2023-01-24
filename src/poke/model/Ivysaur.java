@@ -1,6 +1,6 @@
 package poke.model;
 
-public class Ivysaur 
+public class Ivysaur extends Pokemon
 {
 	public Ivysaur()
 	{
