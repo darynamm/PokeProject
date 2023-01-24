@@ -5,19 +5,18 @@ public class Bulbasaur extends Pokemon
 
 	public Bulbasaur()
 	{
-		super(194, "Bulbasaur");
+		super(001, "Bulbasaur");
 	}
-	public Eevee(String name)
+	
+	public Bulbasaur(String name)
 	{
-		super(133, name);
+		super(001, name);
 		
 	}
 
-	public Eevee(int number, String name)
+	public Bulbasaur(int number, String name)
 	{
 		super(number, name);
 	}
 
 	}
-
-
