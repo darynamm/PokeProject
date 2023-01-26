@@ -1,6 +1,6 @@
 package poke.model;
 
-public class Sylveon extends Pokemon
+public class Sylveon extends Pokemon implements Fairy
 {
 
 	public Sylveon()
@@ -18,5 +18,8 @@ public class Sylveon extends Pokemon
 	{
 		super(number, name);
 	}
-
+public int magic()
+{
+	return 34;
+}
 	}

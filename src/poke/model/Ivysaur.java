@@ -1,6 +1,6 @@
 package poke.model;
 
-public class Ivysaur extends Pokemon
+public class Ivysaur extends Pokemon implements Ghost, Grass, Poison
 {
 	public Ivysaur()
 	{
@@ -17,5 +17,21 @@ public class Ivysaur extends Pokemon
 	{
 		super(number, name);
 	}
-
+	
+	public void spooky()
+	{
+		super.setHealth(getHealth() + 10);
+	}
+public int green(int power)
+{
+	return 76;
+}
+public int acid()
+{
+	return 65;
+}
+public int smog()
+{
+	return 54;
+}
 	}

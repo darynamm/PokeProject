@@ -1,6 +1,6 @@
 package poke.model;
 
-public class Eevee extends Pokemon
+public class Eevee extends Pokemon implements Normal
 {
 public Eevee ()
 {
@@ -16,5 +16,8 @@ public Eevee(int number, String name)
 {
 	super(number, name);
 }
-
+public void norm()
+{
+	
+}
 }

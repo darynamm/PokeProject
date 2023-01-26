@@ -2,5 +2,5 @@ package poke.model;
 
 public interface Grass
 {
-public int green();
+public int green(int power);
 }

@@ -1,6 +1,6 @@
 package poke.model;
 
-public class Gengar extends Pokemon
+public class Gengar extends Pokemon implements Ghost
 {
 	public Gengar()
 	{
@@ -16,6 +16,15 @@ public class Gengar extends Pokemon
 	public Gengar(int number, String name)
 	{
 		super(number, name);
+	}
+	
+	public void spooky()
+	{
+		
+	}
+	public int smog()
+	{
+		return 34;
 	}
 
 	}
