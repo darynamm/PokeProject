@@ -1,6 +1,6 @@
 package poke.model;
 
-public class Bulbasaur extends Pokemon
+public class Bulbasaur extends Pokemon implements Grass
 {
 
 	public Bulbasaur()
@@ -18,5 +18,8 @@ public class Bulbasaur extends Pokemon
 	{
 		super(number, name);
 	}
-
+public int green(int greenAmount)
+{
+	return getHealth()*2 + greenAmount;
+}
 	}
