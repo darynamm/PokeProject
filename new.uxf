@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>220</y>
+      <w>410</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>/Pokemon/
+--
+ - pokedexNumber : int
+ - health : int
+ - canEvolve : boolean
+ - name : String
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
