@@ -1,4 +1,7 @@
-package poke.model;
+package poke.model.monsters;
+
+import poke.model.Pokemon;
+import poke.model.types.Ghost;
 
 public class Gengar extends Pokemon implements Ghost
 {

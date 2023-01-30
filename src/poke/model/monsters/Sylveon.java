@@ -1,4 +1,7 @@
-package poke.model;
+package poke.model.monsters;
+
+import poke.model.Pokemon;
+import poke.model.types.Fairy;
 
 public class Sylveon extends Pokemon implements Fairy
 {

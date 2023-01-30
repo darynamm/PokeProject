@@ -1,6 +1,12 @@
 package poke.controller;
 
 import poke.model.*;
+import poke.model.monsters.Bulbasaur;
+import poke.model.monsters.Eevee;
+import poke.model.monsters.Gengar;
+import poke.model.monsters.Ivysaur;
+import poke.model.monsters.Sylveon;
+
 import java.util.ArrayList;
 public class Controller
 {
@@ -18,6 +24,7 @@ public class Controller
  {
 	 
  }
+
  private void createPokedex()
  {
  this.pokedex.add(new Eevee());
