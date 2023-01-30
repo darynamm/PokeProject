@@ -48,7 +48,7 @@ public class PokePanel extends JPanel
 		this.app = app;
 		this.layout = new SpringLayout();
 		
-		this.fieldPanel = new JPanel(new GridLayout(0,1));
+		this.fieldPanel = new JPanel(new GridLayout(0,2));
 		
 		this.healthField = new JTextField("health");
 		this.nameField = new JTextField("name");

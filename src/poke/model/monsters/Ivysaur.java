@@ -10,6 +10,7 @@ public class Ivysaur extends Pokemon implements Ghost, Grass, Poison
 	public Ivysaur()
 	{
 		super(002, "Ivysaur");
+		setup(250, true);
 	}
 	
 	public Ivysaur(String name)

@@ -9,6 +9,7 @@ public class Bulbasaur extends Pokemon implements Grass
 	public Bulbasaur()
 	{
 		super(001, "Bulbasaur");
+		setup(250, true);
 	}
 	
 	public Bulbasaur(String name)

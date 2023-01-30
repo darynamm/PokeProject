@@ -8,41 +8,44 @@ import poke.model.monsters.Ivysaur;
 import poke.model.monsters.Sylveon;
 
 import java.util.ArrayList;
+import poke.view.PokeFrame;
+
 public class Controller
 {
-	
+
 	private ArrayList<Pokemon> pokedex;
 	private String dataFile;
-	
+
+	private PokeFrame window;
+
 	public Controller()
 	{
 		this.pokedex = new ArrayList<Pokemon>();
 		this.dataFile = "";
+		createPokedex();
+		this.window = new PokeFrame(this);
 	}
-	
- public void start()
- {
-	 
- }
 
- private void createPokedex()
- {
- this.pokedex.add(new Eevee());
- this.pokedex.add(new Eevee("Cute little cat pokemom"));
- 
- pokedex.add(new Bulbasaur());
- pokedex.add(new Bulbasaur(001, "poisonous saurr"));
- 
- 
- pokedex.add(new Gengar());
- pokedex.add(new Gengar(94, "ghostly poisonous creauture"));
- 
- 
- this.pokedex.add(new Sylveon());
- this.pokedex.add(new Sylveon("fairy pokemom"));
- 
- 
- pokedex.add(new Ivysaur());
- pokedex.add(new Ivysaur(002, "ivy tree pokemon"));
- }
+	public void start()
+	{
+
+	}
+
+	private void createPokedex()
+	{
+		this.pokedex.add(new Eevee());
+		this.pokedex.add(new Eevee("Cute little cat pokemom"));
+
+		pokedex.add(new Bulbasaur());
+		pokedex.add(new Bulbasaur(001, "poisonous saurr"));
+
+		pokedex.add(new Gengar());
+		pokedex.add(new Gengar(94, "ghostly poisonous creauture"));
+
+		this.pokedex.add(new Sylveon());
+		this.pokedex.add(new Sylveon("fairy pokemom"));
+
+		pokedex.add(new Ivysaur());
+		pokedex.add(new Ivysaur(002, "ivy tree pokemon"));
+	}
 }

@@ -8,6 +8,7 @@ public class Gengar extends Pokemon implements Ghost
 	public Gengar()
 	{
 		super(94, "Ivysaur");
+		setup(250, true);
 	}
 	
 	public Gengar(String name)

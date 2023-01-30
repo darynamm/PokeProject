@@ -9,6 +9,7 @@ public class Sylveon extends Pokemon implements Fairy
 	public Sylveon()
 	{
 		super(700, "Sylveon");
+		setup(250, true);
 	}
 	
 	public Sylveon(String name)
