@@ -120,7 +120,7 @@ public class PokePanel extends JPanel
 	}
 	private void setupListeners()
 	{
-		
+		updateButton.addActionListener(click -> collectInput());
 	}
 	
 	private void setupLayout()
