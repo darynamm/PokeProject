@@ -104,6 +104,20 @@ public class PokePanel extends JPanel
 		this.add(pokedexSelector);
 		
 	}
+	
+	private void collectInput()
+	{
+		String name = nameField.getText();
+		String health = healthField.getText();
+		boolean canEvolve = evolveBox.isSelected();
+		int index = pokedexSelector.getSelectedIndex();
+		
+		if (app.validateNumber(health))
+		{
+			int healthValue = Integer.parseInt(health);
+			app.updateCurrentPokemon(name, index, healthValue, canEvolve);
+		}
+	}
 	private void setupListeners()
 	{
 		
