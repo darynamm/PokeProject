@@ -40,7 +40,7 @@ public class PokePanel extends JPanel
 	
 	private JComboBox<String> pokedexSelector;
 	
-	
+	private JButton updateButton;
 	
 	public PokePanel(Controller app)
 	{
@@ -65,7 +65,7 @@ public class PokePanel extends JPanel
 		this.imageLabel = new JLabel("image");
 		this.icon = new ImageIcon();
 		this.pokedexSelector = new JComboBox<String>();
-		
+		this.updateButton = new JButton("Update pokemon stats!");
 		setupPanel();
 		setupListeners();
 		setupLayout();
@@ -94,7 +94,7 @@ public class PokePanel extends JPanel
 		this.fieldPanel.add(numberLabel);
 		this.fieldPanel.add(numberField);
 		
-		
+		this.fieldPanel.add(updateButton);
 		
 		this.fieldPanel.add(evolveBox);
 		this.fieldPanel.add(typesPane);
