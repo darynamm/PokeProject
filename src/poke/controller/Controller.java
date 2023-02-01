@@ -9,6 +9,7 @@ import poke.model.monsters.Sylveon;
 
 import java.util.ArrayList;
 import poke.view.PokeFrame;
+import javax.swing.JOptionPane;
 
 public class Controller
 {
@@ -31,13 +32,29 @@ public class Controller
 
 	}
 
+	
+	public boolean validateNumber(String text)
+{
+	boolean isValid = false;
+	
+	try
+	{
+		Integer.parseInt(text);
+		isValid = true;
+	}
+	catch (NumberFormatException error)
+	{
+		JOptionPane.showMessageDialog(window,  "You need to type in a number");
+	}
+	return isValid;
+}
 	private void createPokedex()
 	{
 		this.pokedex.add(new Eevee());
 		this.pokedex.add(new Eevee("Cute little cat pokemom"));
 
 		pokedex.add(new Bulbasaur());
-		pokedex.add(new Bulbasaur(001, "poisonous saurr"));
+		pokedex.add(new Bulbasaur(001, "poisonous saur"));
 
 		pokedex.add(new Gengar());
 		pokedex.add(new Gengar(94, "ghostly poisonous creauture"));
