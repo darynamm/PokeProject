@@ -1,6 +1,5 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
 import poke.model.types.Normal;
 
 public class Eevee extends Pokemon implements Normal

@@ -1,6 +1,5 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
 import poke.model.types.Grass;
 
 public class Bulbasaur extends Pokemon implements Grass

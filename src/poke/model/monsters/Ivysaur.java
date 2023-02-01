@@ -1,6 +1,5 @@
 package poke.model.monsters;
 
-import poke.model.Pokemon;
 import poke.model.types.Ghost;
 import poke.model.types.Grass;
 import poke.model.types.Poison;

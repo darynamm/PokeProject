@@ -5,6 +5,7 @@ import poke.model.monsters.Bulbasaur;
 import poke.model.monsters.Eevee;
 import poke.model.monsters.Gengar;
 import poke.model.monsters.Ivysaur;
+import poke.model.monsters.Pokemon;
 import poke.model.monsters.Sylveon;
 
 import java.util.ArrayList;
