@@ -48,6 +48,15 @@ public class Controller
 	}
 	return isValid;
 }
+	
+	
+	public void updateCurrentPokemon(String name, int index, int health, boolean evolve)
+	{
+		Pokemon current = pokedex.get(index);
+		current.setName(name);
+		current.setHealth(health);
+		current.setCanEvolve(evolve);
+	}
 	private void createPokedex()
 	{
 		this.pokedex.add(new Eevee());
